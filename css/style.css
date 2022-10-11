@@ -1,0 +1,46 @@
+.invited{
+    background-color: green;
+    color: white;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+.not-invited{
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+
+}
+.d-none{
+    display: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    margin: 20px 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+}
+button{
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
