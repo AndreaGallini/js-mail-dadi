@@ -7,7 +7,7 @@ for(i = 0 ; i < emailDiInvitati.length; i++){
 }
 const verify = function(){
     let check = false;
-    for( let i =0 ; i< emailDiInvitati; i++){
+    for( let i = 0 ; i< emailDiInvitati.length; i++){
         if(email == emailDiInvitati[i]){
             check = true;
         }
